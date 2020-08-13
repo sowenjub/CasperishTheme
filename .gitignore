@@ -1,0 +1,9 @@
+.DS_Store
+/.build
+Package.resolved
+/Packages
+/*.xcodeproj
+xcuserdata/
+/.swiftpm
+/node_modules
+yarn.lock
