@@ -112,17 +112,18 @@ You can see a live example of this theme at [Paraside.in](https://paraside.in).
  ```
 
 1. Well, you need the CasperishTheme package obviously
-2. Your Website must adopt the `CasperishWebsite` protocol, which enables theme specific configurations (see 4.)
-3. Your ItemMetadata must adopt the `CasperishWebsiteItemMetadata` which will allows you to add cover photos to each of your posts/items. So we also need to add the line `var cover: String?` inside.
+2. Your Website must adopt the `CasperishWebsite` protocol, which enables theme-specific configurations (see 4.)
+3. Your ItemMetadata must adopt the `CasperishWebsiteItemMetadata`, allowing you to add cover photos to each of your posts (which are items in the Publish jargon). So we also need to add the line `var cover: String?` inside.
 4. This is where you can really make this theme your own:
-    - `rootPathString` this allows you to publish the website in a subfolder, such as on GitHub Pages without a custom domain name. Leave it to "/" if your site will leave at the root domain
-    - `headerColor` hexadecimal code for the header's background-color. It will be hidden by the cover image if you use one
-    - `cover` optional path the to cover image. Leave blank (`""`) if you want to use the headerColor instead. If you have a cover.jpg image, the path should be `"/cover.jpg"` if your image is at the root of your `/Resources` folder (don't forget the / or it won't work on subpages).
+    - `rootPathString` this allows you to publish the website in a subfolder, such as on GitHub Pages without a custom domain name. Leave it to `"/"` if your site will leave at the root domain
+    - `headerColor` hexadecimal code for the header's background-color. The cover image will hide it if you use one.
+    - `cover` optional path to the cover image. Leave blank (`""`) if you want to use the `headerColor` instead. If you have a cover.jpg image, the path should be `"/cover.jpg"` if your image is at the root of your `/Resources` folder (don't forget the / or it won't work on subpages).
     - `author` and  `bio` are displayed just above the footer
     - `avatar` is the path to your profile picture, displayed for each post. The path should be `"/my avatar.jpg"` if your image is at the root of your `/Resources` folder.
     - `icon` can be an emoji or any short text suitable to be the icon in the navigation bar on mobile
-    - `newsletterAction` leave blank (`""`) if you want to hide the newsletter, otherwise replace with the target url
+    - - `newsletterAction` leave blank (`""`) if you want to hide the newsletter, otherwise replace with the target URL
     - `contacts` is an array of nicknames used to display links to your web profiles in the header (on desktop). For now, it only supports Twitter, Dev.to, LinkedIn, Github and Stack Overflow.
+5. To generate your website you need to include the 2 plugins that ship with the theme
 
 # Usage
 
