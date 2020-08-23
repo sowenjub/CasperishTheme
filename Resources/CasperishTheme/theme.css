@@ -72,6 +72,11 @@
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
+/* Make sure code can be scrolled horizontally */
+.prose pre {
+    overflow-wrap: normal;
+}
+
 /* Center images in prose (markdown) content */
 .prose img {
     margin: 0 auto;

@@ -2295,10 +2295,6 @@ video {
   padding-top: 1.5rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -2705,6 +2701,12 @@ video {
 
 .highlight .gi { color: #a6e22e;
 } /* Generic.Inserted & Diff Inserted */
+
+/* Make sure code can be scrolled horizontally */
+
+.prose pre {
+  overflow-wrap: normal;
+}
 
 /* Center images in prose (markdown) content */
 
