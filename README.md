@@ -176,7 +176,7 @@ npx tailwindcss build theme.css -o styles.css -c tailwind.config.js
 
 * [Ghost](https://ghost.org) for its beautiful Casper theme
 * [Tailwind CSS](https://tailwindcss.com) for making CSS enjoyable
-* [Ghostwind](https://github.com/tailwindtoolbox/Ghostwind) for saving me a lot of time to port the Casper theme to Publish. I went a bit further but the foundation comes from their template.
+* [Ghostwind template](https://github.com/tailwindtoolbox/Ghostwind) by [TailwindToolbox](https://www.tailwindtoolbox.com) for saving me a lot of time to port the Casper theme to Publish. I went a bit further but the foundation comes from their template.
 * [Fontawesome](https://fontawesome.com) for their brand icons as svg
 * [Brian Dinsen](https://twitter.com/briandinsen) for [his article](https://brian.dk/posts/create-a-publish-theme-in-its-own-swift-package/) that helped me turn this into a package
 * [Zhijin Chen](https://czj.pw) for his [SwiftPygmentsPublishPlugin](https://github.com/Ze0nC/SwiftPygmentsPublishPlugin)
