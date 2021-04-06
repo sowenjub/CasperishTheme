@@ -37,7 +37,7 @@ You can see a live example of this theme at [Paraside.in](https://paraside.in).
      …
      dependencies: [
          …
-         .package(url: "https://github.com/sowenjub/CasperishTheme.git", .branch("master"))
+         .package(url: "https://github.com/sowenjub/CasperishTheme.git", .branch("main"))
      ],
      targets: [
          .target(
